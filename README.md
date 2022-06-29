@@ -10,6 +10,6 @@ It creates a list of all files in a directory, storing their names and hashes. T
 - -s hash scan.
 - -ts timed hash scan.
 
-Example : go go-watcher.go <scan type> <scan directory> <scan file directory> <time interval for timed scans> <number of timed scans>
+Example : `go go-watcher.go <scan type> <scan directory> <scan file directory> <time interval for timed scans> <number of timed scans>`
 
 Firstly, do a baseline scan on the directory. It will store the hashes of its files. At this point you can do hash scans to check if any of those files have been tampered
